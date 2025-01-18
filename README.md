@@ -2,18 +2,18 @@
 
 SRT Subtitle Editor with Easy Workflow - Version 1.0
 
-## Tính năng
+## Features
 
-- Tải và xử lý file phụ đề .srt
-- Tách metadata và nội dung text
-- Hỗ trợ nhập bản dịch từ file .txt hoặc paste trực tiếp
-- Giao diện dạng bảng hiển thị ID, timestamp và nội dung
-- Phân trang và tìm kiếm nội dung
-- Xuất file .srt với nội dung đã dịch
+- Download and process .srt subtitle files
+- Separate metadata and text content
+- Support importing translations from .txt files or pasting directly
+- Tabular interface displays ID, timestamp and content
+- Pagination and content search
+- Export .srt file with translated content
 
 ## Cài đặt
 
-### Từ Source Code
+### From Source Code
 
 1. Clone repository:
 ```bash
@@ -31,36 +31,36 @@ pip install -r requirements.txt
 python main.py
 ```
 
-### Từ File Thực thi
+### From Executable File
 
-1. Tải file SRTeew.exe từ [Releases](https://github.com/Gawasna/SRTeew/releases)
-2. Chạy file thực thi
+1. Download the file SRTeew.exe from [Releases](https://github.com/Gawasna/SRTeew/releases)
+2. Run the executable file
 
 ## Build
 
-Để tạo file thực thi:
+To create executable file:
 
 ```bash
 python setup.py build
 ```
 
-File thực thi sẽ được tạo trong thư mục `build`.
+The executable file will be created in the `build` directory.
 
-## Sử dụng
+## Use
 
-1. Tải file .srt cần xử lý
-2. Xuất nội dung ra file .txt (nếu cần)
-3. Chọn dòng bắt đầu bằng cách click
-4. Nhập bản dịch:
-   - Từ file .txt: Nhấn "Nhập bản dịch"
-   - Hoặc paste trực tiếp (Ctrl+V)
-5. Xuất file .srt đã dịch
+1. Download the .srt file to be processed
+2. Export content to .txt file (if necessary)
+3. Select the starting line by clicking
+4. Import translation:
+   - From .txt file: Click "Import translation"
+   - Or paste directly (Ctrl+V)
+5. Export the translated .srt file
 
-## Phím tắt
+## Shortcut key
 
-- Ctrl + V: Paste nội dung dịch
+- Ctrl + V: Paste the translation content
 - Ctrl + Mouse wheel: Zoom in/out
-- Ctrl + Plus/Minus: Thay đổi cỡ chữ
+- Ctrl + Plus/Minus: Change font size
 
 ## License
 
