@@ -4,7 +4,7 @@ from packaging import version
 import webbrowser
 
 GITHUB_API = "https://api.github.com/repos/{owner}/{repo}/releases/latest"
-GITHUB_REPO = "your-username/SRTeew"  # Thay thế bằng username của bạn
+GITHUB_REPO = "Gawasna/SRTeew"
 
 class UpdateChecker:
     def __init__(self, current_version):
